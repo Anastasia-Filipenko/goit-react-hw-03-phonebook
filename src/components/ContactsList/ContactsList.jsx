@@ -3,7 +3,7 @@ import css from './ContactsList.module.css';
 
 export const ContactsList = ({ contacts, onDelete }) => {
   return (
-    <div>
+    <div className={css.listContainer}>
       <ul>
         {contacts.map(({ id, name, number }) => {
           return (
@@ -32,5 +32,5 @@ ContactsList.propTypes = {
       number: PropTypes.string.isRequired,
     })
   ).isRequired,
-  onClick: PropTypes.func.isRequired,
+  onClick: PropTypes.func,
 };
