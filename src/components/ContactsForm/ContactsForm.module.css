@@ -1,0 +1,29 @@
+.form {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-left: 32px;
+  padding: 16px;
+  width: 500px;
+  border-radius: 15px;
+}
+
+.formLabel {
+  font-size: 24px;
+}
+
+.formInput {
+  width: 300px;
+}
+
+.formBtn {
+  border: 1px solid rgb(219 213 213);
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+}
+
+.formBtn:hover {
+  background-color: aqua;
+}
